@@ -1,4 +1,5 @@
-d<-'string'
+
+#numerical
 x
 y<-5
 y
@@ -36,7 +37,7 @@ class(x6)
 class(x7)
 
 #string/character datatype
-
+d<-'string'
 a1<-"data"
 a1
 a2<-factor(a1)
