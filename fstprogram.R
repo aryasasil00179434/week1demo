@@ -65,12 +65,22 @@ c1ass(k)
 is.logical(k)
 
 
+2==3
+2!=3
+2<3
+2>=3
+2>3
 
+#vectors
+#r is a vectorized language 
+#c() function used to construct vectors in R 
+v1<-c(10,20,5,60,15)
+v1
 
-
-
-
-
+assign('f',c(20,40,43,65,54))
+f2<-c(20,40,43,65,54)
+#rarely used
+f1=c(20,40,43,65,54)
 
 
 
