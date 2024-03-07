@@ -35,12 +35,45 @@ class(x5)
 class(x6)
 class(x7)
 
+#string/character datatype
+
 a1<-"data"
 a1
 a2<-factor(a1)
 a2
 nchar(a1)
 nchar(505)
+
+#date datatype
+date1<-as.Date("2019/03/08")
+date1
+class(date1)
+#next it will how many days we passed after jan 1 1970
+as.numeric(date1)
+
+date2<-as.POSIXct("2019-03-8 09:00")
+class(date2)
+as.numeric(date2)
+
+
+
+#logical datatype
+TRUE*6
+FALSE*5
+k <-TRUE
+c1ass(k)
+is.logical(k)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
