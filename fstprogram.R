@@ -73,18 +73,31 @@ is.logical(k)
 2>3
 
 #vectors
-#r is a vectorized language 
+#r is a vectorized language-its a single object 
 #c() function used to construct vectors in R 
 v1<-c(10,20,5,60,15)
 v1
 
 assign('f',c(20,40,43,65,54))
+f
 f2<-c(20,40,43,65,54)
-#rarely used
+f2
+#rarely used function R
 f1=c(20,40,43,65,54)
+f1
 
+c(20,40,43,65,54)->f3
+f3
+1/f3
+#combine vectors
 
+y1<-c(f3,0,f3)
+y1
+1/y1
 
-
+y2<-c(2,3)
+y3<-c(5,6,7,8)
+y4<-c(y3+y2)
+y4
 
 
