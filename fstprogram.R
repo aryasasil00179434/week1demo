@@ -35,5 +35,12 @@ class(x5)
 class(x6)
 class(x7)
 
+a1<-"data"
+a1
+a2<-factor(a1)
+a2
+nchar(a1)
+nchar(505)
+
 
 
